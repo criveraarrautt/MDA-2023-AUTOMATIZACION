@@ -1,0 +1,123 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[none]{hyphenat}
+
+%*****************************************
+%     TITULO Y AUTORES DEL PROYECTO
+%*****************************************
+\title{Integración y Automatización de Datos para Inteligencia Artificial en el Proyecto ETL: Modelo Predictivo para Información de Venta}
+\author{Fernando Roa$^{1}$, Cristian Rivera$^{2}$\\ \\
+\small{$^{1-2}$Faculta de Ingeniería y Ciencias Básicas,}\\
+\small{Universidad Central} \\ \small{Maestría Analítica de Datos} \\ \small{Automatizacion e Integración de Datos para la IA } \\ \small{Bogotá, Colombia}\\
+\small{\texttt{\{$^{1}$froam1, $^{2}$criveraa\}@correo1.com}} }
+\date{\small{\today}}
+%*****************************************
+\begin{document}
+\maketitle
+
+
+%*****************************************
+%     ANTECEDENTES DE INVESTIGACIÓN
+%*****************************************
+\tableofcontents
+\newpage 
+
+\section{Introducción \small{(Max 250 Palabras) - (\textit{Primera entrega})}}
+
+En la era actual de la información, la capacidad de integrar y automatizar datos de múltiples fuentes es crucial para el desarrollo y la eficiencia de sistemas basados en Inteligencia Artificial (IA). El presente trabajo se enfoca en la implementación de estas capacidades en el contexto del Proyecto ETL (Extract, Transform, Load), una metodología consolidada que facilita la extracción de datos desde distintos orígenes, su transformación en un formato adecuado y, finalmente, su carga en sistemas de almacenamiento o análisis. 
+
+El núcleo de este proyecto radica en la concepción de un modelo predictivo especialmente diseñado para analizar información de venta. Dicho modelo busca no sólo comprender las tendencias y patrones históricos, sino también anticipar futuras variaciones y comportamientos en el mercado. La implementación de la IA en este contexto se vuelve una herramienta invaluable para las empresas que buscan mantenerse a la vanguardia y tomar decisiones basadas en datos precisos y proyecciones confiables.
+
+Esta investigación abordará las técnicas y herramientas utilizadas para la integración y automatización de datos, así como la estructura y funcionamiento del modelo predictivo propuesto, ofreciendo una perspectiva detallada de su aplicabilidad y potencial impacto en el ámbito comercial.
+
+%*****************************************
+%     ANTECEDENTES DEL PROYECTO
+%*****************************************
+\section{Características del proyecto de investigación que hace uso de Integración y Automatización de Datos para IA \small{(Max 500 Palabras) - (\textit{Primera entrega})}}
+
+El proyecto "Integración y Automatización de Datos para Inteligencia Artificial en el Proyecto ETL: Modelo Predictivo para Información de Venta" presenta una serie de características distintivas que lo posicionan como una herramienta esencial para el manejo de grandes volúmenes de datos comerciales. En primer lugar, cuenta con una robusta infraestructura de integración que facilita la recolección y consolidación de datos desde múltiples fuentes, asegurando la homogeneidad y consistencia de la información. La automatización incorporada garantiza flujos de trabajo eficientes y reduce el margen de error humano, maximizando la precisión en cada etapa del proceso ETL (Extracción, Transformación y Carga). En el aspecto de transformación, se han implementado algoritmos avanzados que adaptan y preparan los datos para análisis, garantizando su relevancia y utilidad. El corazón del proyecto es su modelo predictivo basado en técnicas de Inteligencia Artificial, diseñado para detectar tendencias y patrones en la información de venta. Este modelo se capacita constantemente con nuevos datos, mejorando su precisión y adaptabilidad frente a cambiantes escenarios de mercado. Además, presenta interfaces amigables para los usuarios y sistemas de visualización de datos, permitiendo una interpretación intuitiva de los resultados. Asimismo, se ha puesto un especial énfasis en la escalabilidad y flexibilidad del sistema, permitiendo su adaptación a diferentes tamaños y tipos de organizaciones. Por último, pero no menos importante, el proyecto se rige por estrictas normas de seguridad y confidencialidad, en materia de privacidad y gestión de datos. El compromiso con estas normativas asegura que, además de proporcionar insights valiosos, el proyecto mantiene la integridad y confianza de sus usuarios. La combinación de estas características convierte a este proyecto en una solución integral, capaz de atender las crecientes demandas del análisis de datos en el mundo comercial y ofrecer previsiones acertadas que pueden guiar estrategias de negocio hacia el éxito. Esta innovadora propuesta representa un paso adelante en la confluencia de la Inteligencia Artificial, la gestión de datos y el análisis predictivo, consolidándose como un referente en el ámbito de la tecnología y la toma de decisiones basadas en datos.
+
+
+\subsection{Integración y Automatización de Datos para Inteligencia Artificial en el Proyecto ETL: Modelo Predictivo para Información de Venta \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+
+
+\subsection{Objetivo general \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+Desarrollar e implementar un sistema de Integración y Automatización de Datos orientado a la Inteligencia Artificial dentro del marco del Proyecto ETL, que permita la generación de un Modelo Predictivo eficiente para la interpretación y proyección de información de venta, respondiendo a las demandas actuales del análisis de datos en el sector comercial.
+
+
+
+\subsubsection{Objetivos especificos \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+\begin{itemize}
+\item Diseño y Optimización de la Infraestructura de Integración: Establecer mecanismos que facilitan la recolección y consolidación de datos de diversas fuentes, garantizando su homogeneidad y consistencia, y asegurando la adaptabilidad y escalabilidad del sistema a diferentes contextos organizacionales.
+\item Automatización del Proceso ETL y Adaptabilidad del Modelo Predictivo: Implementar algoritmos avanzados que no solo transforman los datos para su posterior análisis, sino que también permiten que el modelo predictivo se retroalimente y se adapte a nuevos escenarios de mercado, mejorando continuamente su precisión y relevancia.
+\item Desarrollo de Interfaces y Sistemas de Visualización: Crear herramientas de usuario intuitivas y sistemas gráficos de visualización de datos, que faciliten la comprensión y explotación de los insights derivados del modelo, al tiempo que se asegura el cumplimiento de las normativas de privacidad y gestión de datos
+\end{itemize}
+
+\subsection{Alcance \small{(Max 200 Palabras) - (\textit{Primera entrega})}}
+El presente proyecto abarca la creación de un sistema integral que se orienta hacia la Integración y Automatización de Datos en el contexto de la Inteligencia Artificial y el Proyecto ETL. Nuestro alcance incluye el diseño de una infraestructura de integración que permita la armonización y consolidación de datos provenientes de múltiples fuentes, garantizando la calidad y coherencia de la información. Se dará especial énfasis a la implementación de algoritmos avanzados para la transformación de datos y la adaptabilidad constante del modelo predictivo a las dinámicas cambiantes del mercado. Además, se desarrollarán interfaces de usuario y sistemas de visualización que brindarán interpretaciones claras y accesibles de los resultados generados. Por último, pero de vital importancia, el proyecto se compromete a respetar las normativas vigentes en materia de privacidad y gestión de datos, asegurando la protección y confiabilidad de la información manejada. Si bien el objetivo principal es el análisis de información de venta, la flexibilidad y adaptabilidad del sistema posibilitan futuras expansiones y adaptaciones a otros ámbitos comerciales y de análisis.
+
+\subsection{Pregunta de investigación \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+¿Cómo la implementación de un sistema de Integración y Automatización de Datos orientado a la Inteligencia Artificial en el marco del Proyecto ETL puede mejorar la precisión y eficacia del análisis predictivo de información de venta, y cuál es su impacto en la toma de decisiones estratégicas dentro? del sector comercial?
+
+\subsection{Hipotesis \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+ La implementación de un sistema integrado de Inteligencia Artificial, centrado en la Integración y Automatización de Datos dentro del Proyecto ETL, incrementará significativamente la precisión del análisis predictivo de la información de venta. Esta mejora en el análisis conducirá a decisiones estratégicas más informadas en el sector comercial, optimizando las operaciones, la identificación de tendencias de mercado y la respuesta a cambios dinámicos, resultando en una ventaja competitiva sustancial para las organizaciones que adoptan dicho sistema.
+
+%*****************************************
+%     CONSIDERACIONES SOBRE LAS FUENTES DE DATOS
+%*****************************************
+\newpage 
+\section{Reflexiones sobre el origen de datos e información \small{(Max 400 Palabras) - (\textit{Primera entrega})}}
+Lorem ipsum dolor sit amet consectetur adipiscing elit, tristique tortor euismod nibh iaculis sapien eu, fusce laoreet auctor mollis litora urna. Interdum facilisis vivamus et lectus taciti rutrum mi senectus pulvinar, nisi habitant ac leo maecenas nascetur inceptos ut ornare, ullamcorper volutpat condimentum viverra nostra imperdiet fermentum malesuada. Varius potenti nunc eget commodo placerat et accumsan hendrerit, neque quam blandit aptent natoque mollis cras habitasse, purus in feugiat penatibus dictum pretium felis.
+
+Non congue curae nisl sagittis viverra cursus mus maecenas purus, suspendisse molestie aliquam facilisi sem dis ullamcorper euismod tempor tortor, sapien libero massa vel eros leo laoreet mi. Elementum parturient at malesuada congue a fames viverra facilisi enim, morbi urna quisque iaculis magnis mollis eleifend lacus leo proin, massa nisl nam magna nec nibh lobortis torquent. Felis auctor malesuada eu suspendisse in sociosqu tempus cum, netus senectus magna suscipit mollis risus libero a integer, justo rutrum erat non consequat ante dapibus.
+
+\subsection{¿Cual es el origen de los datos e información ? \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit, tristique tortor euismod nibh iaculis sapien eu, fusce laoreet auctor mollis litora urna. Interdum facilisis vivamus et lectus taciti rutrum mi senectus pulvinar, nisi habitant ac leo maecenas nascetur inceptos ut ornare, ullamcorper volutpat condimentum viverra nostra imperdiet fermentum malesuada. Varius potenti nunc eget commodo placerat et accumsan hendrerit, neque quam blandit aptent natoque mollis cras habitasse, purus in feugiat penatibus dictum pretium felis.
+
+\subsection{¿Cuales son las consideraciones legales o éticas del uso de la información? \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+
+Non congue curae nisl sagittis viverra cursus mus maecenas purus, suspendisse molestie aliquam facilisi sem dis ullamcorper euismod tempor tortor, sapien libero massa vel eros leo laoreet mi. Elementum parturient at malesuada congue a fames viverra facilisi enim, morbi urna quisque iaculis magnis mollis eleifend lacus leo proin, massa nisl nam magna nec nibh lobortis torquent. Felis auctor malesuada eu suspendisse in sociosqu tempus cum, netus senectus magna suscipit mollis risus libero a integer, justo rutrum erat non consequat ante dapibus.
+
+\subsection{¿Cuales son los retos de la información y los datos que utilizara en Integración y Automatización de Datos para IA? \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit, primis integer aptent accumsan placerat et, magna litora id lacinia eget consequat. Nec ridiculus magnis rutrum iaculis mauris velit feugiat etiam curae, fusce bibendum quam conubia neque potenti habitasse faucibus habitant, quisque dapibus dignissim risus vitae est maecenas scelerisque. Nisi volutpat mi convallis hac luctus aenean metus diam justo, molestie porttitor nostra augue elementum varius sed non enim, aliquam nibh porta dui arcu mattis suspendisse orci. At malesuada blandit semper commodo venenatis eleifend sagittis pretium senectus, facilisi condimentum sociosqu ultrices fringilla tempus ut tristique, sociis pulvinar torquent felis pharetra fermentum libero ac.
+
+\subsection{¿Que espera de la utilización de Integración y Automatización de Datos para IA para su proyecto? \small{(Max 100 Palabras) - (\textit{Primera entrega})}}
+
+Vulputate nec hac convallis rutrum eu ante volutpat aliquam ullamcorper pulvinar tristique velit nulla, cubilia felis tempor aptent vitae rhoncus parturient euismod mauris potenti dignissim magna. Nunc nec cum quisque quam tincidunt mauris nascetur conubia placerat fusce consequat eget erat vulputate, est rhoncus etiam dignissim luctus volutpat facilisi molestie torquent at convallis accumsan. Magnis morbi auctor sapien fusce turpis leo ad libero vivamus, sem enim ultrices elementum curae accumsan vel hendrerit. Etiam elementum dui a sodales auctor lacus proin interdum, porttitor netus tortor blandit sociis facilisi ullamcorper, mi aenean euismod diam placerat dignissim class.
+
+%*****************************************
+%     SOBRE EL MODELO DE DATOS
+%*****************************************
+\newpage
+\section{Diseño de integración y Automatización de Datos para IA (Diagrama) \small{(\textit{Primera entrega})}}
+
+Vulputate nec hac convallis rutrum eu ante volutpat aliquam ullamcorper pulvinar tristique velit nulla, cubilia felis tempor aptent vitae rhoncus parturient euismod mauris potenti dignissim magna. Nunc nec cum quisque quam tincidunt mauris nascetur conubia placerat fusce consequat eget erat vulputate, est rhoncus etiam dignissim luctus volutpat facilisi molestie torquent at convallis accumsan. Magnis morbi auctor sapien fusce turpis leo ad libero vivamus, sem enim ultrices elementum curae accumsan vel hendrerit. Etiam elementum dui a sodales auctor lacus proin interdum, porttitor netus tortor blandit sociis facilisi ullamcorper, mi aenean euismod diam placerat dignissim class.
+
+\section{integración de Datos  \small{(\textit{Segunda entrega})}}
+Vulputate nec hac convallis rutrum eu ante volutpat aliquam ullamcorper pulvinar tristique velit nulla, cubilia felis tempor aptent vitae rhoncus parturient euismod mauris potenti dignissim magna. Nunc nec cum quisque quam tincidunt mauris nascetur conubia placerat fusce consequat eget erat vulputate, est rhoncus etiam dignissim luctus volutpat facilisi molestie torquent at convallis accumsan. Magnis morbi auctor sapien fusce turpis leo ad libero vivamus, sem enim ultrices elementum curae accumsan vel hendrerit. Etiam elementum dui a sodales auctor lacus proin interdum, porttitor netus tortor blandit sociis facilisi ullamcorper, mi aenean euismod diam placerat dignissim class.
+\section{Automatización  de Datos  \small{(\textit{Segunda entrega})}}
+Vulputate nec hac convallis rutrum eu ante volutpat aliquam ullamcorper pulvinar tristique velit nulla, cubilia felis tempor aptent vitae rhoncus parturient euismod mauris potenti dignissim magna. Nunc nec cum quisque quam tincidunt mauris nascetur conubia placerat fusce consequat eget erat vulputate, est rhoncus etiam dignissim luctus volutpat facilisi molestie torquent at convallis accumsan. Magnis morbi auctor sapien fusce turpis leo ad libero vivamus, sem enim ultrices elementum curae accumsan vel hendrerit. Etiam elementum dui a sodales auctor lacus proin interdum, porttitor netus tortor blandit sociis facilisi ullamcorper, mi aenean euismod diam placerat dignissim class.
+\section{IA   \small{(\textit{Segunda entrega})}}
+Vulputate nec hac convallis rutrum eu ante volutpat aliquam ullamcorper pulvinar tristique velit nulla, cubilia felis tempor aptent vitae rhoncus parturient euismod mauris potenti dignissim magna. Nunc nec cum quisque quam tincidunt mauris nascetur conubia placerat fusce consequat eget erat vulputate, est rhoncus etiam dignissim luctus volutpat facilisi molestie torquent at convallis accumsan. Magnis morbi auctor sapien fusce turpis leo ad libero vivamus, sem enim ultrices elementum curae accumsan vel hendrerit. Etiam elementum dui a sodales auctor lacus proin interdum, porttitor netus tortor blandit sociis facilisi ullamcorper, mi aenean euismod diam placerat dignissim class.
+%*****************************************
+%     PROXIMOS PASOS
+%*****************************************
+\newpage
+\section{Proximos pasos \small{ (\textit{Tercera entrega})}} 
+
+%*****************************************
+%     LECCIONES APRENDIDAS
+%*****************************************
+\newpage
+\section{Lecciones aprendidas \small{ (\textit{Tercera entrega})}} 
+
+%*****************************************
+%     BIBLIOGRAFÍA
+%*****************************************
+\newpage
+\section{Bibliografía} %Normas APA 
+
+%*****************************************
+\end{document}
