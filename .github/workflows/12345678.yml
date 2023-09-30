@@ -1,0 +1,54 @@
+name: Flujo de Trabajo Avanzado
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Ejecutar pruebas
+        run: npm test
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Crear versión de producción
+        run: |
+          echo "Generando la versión de producción..."
+          # Agrega aquí comandos para compilar tu aplicación
+          # Por ejemplo: npm run build
+          echo "Versión de producción generada."
+
+      - name: Publicar en GitHub Releases
+        id: publish
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ./path/to/your/compiled/files/* # Reemplaza con la ubicación de tus archivos compilados
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - name: Despliegue en el servidor de pruebas
+        run: |
+          echo "Desplegando en el servidor de pruebas..."
+          # Agrega aquí comandos para implementar tu aplicación en el servidor de pruebas
+          echo "Aplicación desplegada en el servidor de pruebas."
