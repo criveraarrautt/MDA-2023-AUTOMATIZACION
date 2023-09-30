@@ -1,0 +1,14 @@
+name: Mi Flujo de Trabajo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  imprimir-mensaje:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Imprimir Mensaje
+        run: echo "Este es un mensaje desde mi flujo de trabajo en GitHub Actions."
